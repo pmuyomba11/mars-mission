@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show Page</title>
+</head>
+
+<body>
+    <h1>Show Page</h1>
+    <div class="container">
+        <p>
+            NAME: <%= mission.name %> <br>
+                LAUNCH-DATE: <%= mission.launchDate %> <br>
+                    OPERATOR: <%= mission.operator %> <br>
+                        MISSION-TYPE: <%= mission.missionType %> <br>
+                            <img src="<%= mission.img %>" alt="image">
+        </p>
+    </div>
+    <nav>
+        <a href="/missions">Back to HomePage</a>
+    </nav>
+</body>
+
+</html>
